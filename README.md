@@ -6,7 +6,7 @@
 
 <details>
   <summary>The title of the image group</summary><details>
-  <img src="Dataset/" name="0.jpg">
+  <img src="Dataset/0.jpg" name="0.jpg">
   <img src="Dataset/" name="1.jpg">
   <img src="Dataset/" name="2.jpg">
   <img src="Dataset/" name="3.jpg">
