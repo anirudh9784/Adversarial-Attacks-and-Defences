@@ -17,13 +17,20 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a></pre>
   <img src="Dataset/53.jpg" name="53.jpg">
 <img src="Dataset/10.jpg" name="10.jpg">
 </details>
-<img src="Dataset/1.jpg" alt="Snow" style="width:100%">
 <h2>ML Models Used :</h2>
 <pre>   1. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet">Resnet</a>
    2. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2">MobileNetV2</a>
    3. <a href="https://blog.keras.io/building-autoencoders-in-keras.html">Auto-Encoder</a>
    4. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/DenseNet121">DenseNet</a></pre>
 
-<div align="center">
-    <img src="example.svg" width="400" height="400" alt="css-in-readme">
+<div class="row">
+  <div class="column">
+    <img src="Dataset/1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Dataset/1.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Dataset/1.jpg" alt="Mountains" style="width:100%">
+  </div>
 </div>
