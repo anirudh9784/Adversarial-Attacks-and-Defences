@@ -10,8 +10,7 @@ against White-box attack. Attack is planned using FGSM model, and the subsequent
 and security delivered by the algorithm.</p>
 
 <h2>  Dataset :</h2><pre>It is subset of Imagenet Dataset
-Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a></pre>
-<pre><img src="Dataset/1.jpg"  style="width:100%">    <img src="Dataset/29.jpg"  style="width:100%">    <img src="Dataset/213.jpg"  style="width:100%">   <img src="Dataset/53.jpg"  style="width:100%"></pre>
+Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a><img src="Dataset/1.jpg"  style="width:100%">    <img src="Dataset/29.jpg"  style="width:100%">    <img src="Dataset/213.jpg"  style="width:100%">   <img src="Dataset/53.jpg"  style="width:100%"></pre>
 <h2>ML Models Used :</h2>
 <pre>   1. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet">Resnet</a>
    2. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2">MobileNetV2</a>
