@@ -3,30 +3,8 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
             
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
             </style>
-           <div class="row">
-  <div class="column">
     <img src="Dataset/1.jpg" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="Dataset/2.jpg" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="Dataset/4.jpg" alt="Mountains" style="width:100%">
-  </div>
-</div>
-        </div>
+  
     </foreignObject>
 </svg>
