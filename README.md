@@ -19,7 +19,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    4. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/DenseNet121">DenseNet</a></pre>
 
 <h2>Adversarial Attack:</h2>
-## Attack
+
 1. Fast Gradient Sign Method(FGSM) - [Goodfellow, I. J., Shlens, J., and Szegedy, C. Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572, 2014b.](https://arxiv.org/abs/1412.6572)
 ```python
 def fgsm_attack(input,epsilon,data_grad):
