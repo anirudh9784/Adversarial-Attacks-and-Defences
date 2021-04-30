@@ -24,6 +24,6 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a></pre>
    4. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/DenseNet121">DenseNet</a></pre>
 
 <div>
-<pre><img src="Dataset/1.jpg"  style="width:100%">    <img src="Dataset/29.jpg"  style="width:100%">    <img src="Dataset/68.jpg"  style="width:100%">   <img src="Dataset/53.jpg"  style="width:100%"></pre>
+<pre><img src="Dataset/1.jpg"  style="width:100%">    <img src="Dataset/29.jpg"  style="width:100%">    <img src="Dataset/213.jpg"  style="width:100%">   <img src="Dataset/53.jpg"  style="width:100%"></pre>
 
 </div>
