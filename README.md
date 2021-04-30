@@ -6,7 +6,7 @@
 <h2> Dataset :</h2> It is subset of Imagenet Dataset
 <details>
   <img src="Dataset/1.jpg" name="1.jpg">
-  <img src="Dataset/2.jpg" name="45.jpg">
-  <img src="Dataset/2.jpg" name="53.jpg">
-<img src="Dataset/4.jpg" name="10.jpg">
+  <img src="Dataset/45.jpg" name="45.jpg">
+  <img src="Dataset/53.jpg" name="53.jpg">
+<img src="Dataset/10.jpg" name="10.jpg">
 </details>
