@@ -1,7 +1,5 @@
 <svg fill="none" viewBox="0 0 400 400" width="400" height="400">
-    <foreignObject width="100%" height="100%">
-    <img src="Dataset/1.jpg" alt="Snow" style="width:100%">
-  <img src="Dataset/3.jpg" alt="Snow" style="width:100%">
-    </foreignObject>
+      <img src="Dataset/3.jpg" alt="Snow" style="width:100%">
+
 </svg>
  <img src="Dataset/1.jpg" alt="Snow" style="width:100%">
