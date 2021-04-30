@@ -12,8 +12,7 @@
 <img src="Dataset/10.jpg" name="10.jpg">
 </details>
 
-# ML Models Used :
-<br>
+<h2>ML Models Used :</h2>
 <pre>   1. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet">Resnet</a>
    2. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2">MobileNetV2</a>
    3. <a href="https://blog.keras.io/building-autoencoders-in-keras.html">Auto-Encoder</a>
