@@ -23,11 +23,11 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
 1. Fast Gradient Sign Method(FGSM) - [Goodfellow, I. J., Shlens, J., and Szegedy, C. Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572, 2014b.](https://arxiv.org/abs/1412.6572)
 ```python
    def create_adversarial_pattern(input_image, input_label):
-  with tf.GradientTape() as tape:
-    tape.watch(input_image)
-    prediction = pretrained_model(input_image)
-    loss = loss_object(input_label, prediction)
-  gradient = tape.gradient(loss, input_image)
-  signed_grad = tf.sign(gradient)
-  return signed_grad
+     with tf.GradientTape() as tape:
+       tape.watch(input_image)
+       prediction = pretrained_model(input_image)
+       loss = loss_object(input_label, prediction)
+     gradient = tape.gradient(loss, input_image)
+     signed_grad = tf.sign(gradient)
+     return signed_grad
 ```
