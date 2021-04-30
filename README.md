@@ -24,3 +24,6 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a></pre>
    3. <a href="https://blog.keras.io/building-autoencoders-in-keras.html">Auto-Encoder</a>
    4. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/DenseNet121">DenseNet</a></pre>
 
+<div align="center">
+    <img src="Dump/readme.svg" width="400" height="400" alt="css-in-readme">
+</div>
