@@ -2,21 +2,31 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-            h1 {
-                color: red;
-                animation: mymove 2s infinite;
-            }
+            
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
-            @keyframes mymove {
-                from {
-                    color: red;
-                }
-                to {
-                    color: yellow;
-                }
-            }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
             </style>
-            <h1>HELLO WORLD!</h1>
+           <div class="row">
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_forest.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
         </div>
     </foreignObject>
 </svg>
