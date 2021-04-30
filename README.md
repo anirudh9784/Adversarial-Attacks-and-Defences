@@ -15,7 +15,7 @@
 # ML Models Used :
 <br>
 <pre>   1. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet">Resnet</a>
-   2. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2">MobileNetV2</a></pre>
+   2. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2">MobileNetV2</a>
    3. <a href="https://blog.keras.io/building-autoencoders-in-keras.html">Auto-Encoder</a>
    4. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/DenseNet121>DenseNet</a></pre>
 
