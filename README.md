@@ -5,13 +5,17 @@
 
 <h2> Dataset :</h2> It is subset of Imagenet Dataset<br>
 <pre>   Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a></pre>
-
-# ML Models Used :
-<br>
-<pre>   1. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet">Resnet</a>
 <details>
   <img src="Dataset/1.jpg" name="1.jpg">
   <img src="Dataset/45.jpg" name="45.jpg">
   <img src="Dataset/53.jpg" name="53.jpg">
 <img src="Dataset/10.jpg" name="10.jpg">
 </details>
+
+# ML Models Used :
+<br>
+<pre>   1. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet">Resnet</a>
+<pre>   2. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2">MobileNetV2</a>
+<pre>   3. <a href="https://blog.keras.io/building-autoencoders-in-keras.html">Auto-Encoder</a>
+<pre>   4. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/DenseNet121>DenseNet</a></pre>
+
