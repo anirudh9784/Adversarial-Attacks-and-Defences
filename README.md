@@ -5,6 +5,10 @@
 
 <h2> Dataset :</h2> It is subset of Imagenet Dataset<br>
 <pre>   Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a></pre>
+
+# ML Models Used :
+<br>
+<pre>   1. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet">Resnet</a>
 <details>
   <img src="Dataset/1.jpg" name="1.jpg">
   <img src="Dataset/45.jpg" name="45.jpg">
