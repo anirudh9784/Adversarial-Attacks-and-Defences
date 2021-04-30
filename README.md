@@ -23,12 +23,9 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a></pre>
    3. <a href="https://blog.keras.io/building-autoencoders-in-keras.html">Auto-Encoder</a>
    4. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/DenseNet121">DenseNet</a></pre>
 
-<div class="row">
+<div>
     <img src="Dataset/1.jpg" alt="Snow" style="width:100%">
-
-
-    <img src="Dataset/1.jpg" alt="Forest" style="width:100%">
-
-    <img src="Dataset/1.jpg" alt="Mountains" style="width:100%">
+<img src="Dataset/1.jpg" alt="Forest" style="width:100%">
+<img src="Dataset/1.jpg" alt="Mountains" style="width:100%">
 
 </div>
