@@ -31,3 +31,5 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
      signed_grad = tf.sign(gradient)
      return signed_grad
 ```
+<h2>Architecture :</h2>
+<img src="Dump/Architecure.jpg"  style="width:100%">
