@@ -6,7 +6,7 @@
 [Architecture](#Architecture)
 
 Table of contents
-=================
+
 
 <!--ts-->
    * [Table of contents](#table-of-contents)
