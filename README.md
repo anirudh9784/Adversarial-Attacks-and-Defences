@@ -1,7 +1,7 @@
 # Major Project
 [asdas](#Architecture)
-<h3> Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
-<p align="justify"> According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
+<h3>Project Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
+<p align="justify">Abstract : According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
 is an intermediate path or technique by which a computer learns to perform tasks using Machine learning algorithms. Machine Learning and Artificial Intelligence model has become
 fundamental aspect of life, such as self-driving cars, smart home devices, so any vulnerability is a significant concern. The smallest input deviations can fool these extremely
 literal systems and deceive their users as well as administrator into precarious situations. This article proposes a defense algorithm which utilizes the combination of an auto-
