@@ -1,11 +1,11 @@
 # Adversarial Defense using AutoEncoder, Block Switching & GradCAM
+![GitHub follow](https://img.shields.io/badge/Python-v3.7-Blue>)
+![GitHub follow](https://img.shields.io/badge/Platform-Windows|Macos-blue>)
 ![GitHub repo size](https://img.shields.io/github/repo-size/anirudh9784/Adversarial-Defense)
 ![GitHub stars](https://img.shields.io/github/stars/anirudh9784/Adversarial-Defense?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/anirudh9784/Adversarial-Defense?style=social)
-![GitHub follow](https://img.shields.io/badge/Python-v3.7-Blue>)
-![GitHub follow](https://img.shields.io/badge/Platform-Windows|Macos-Blue>)
 
-![GitHub follow](https://img.shields.io/github/followers/ashutoshupadhyah?style=social)
+
 <br>
 This system majorly focuses on static image input and defence architecture. Following are the characteristics of the proposed model: 
 <ul><li>Combination of two models to effectively defend both Black box and White Box attack. </li>
