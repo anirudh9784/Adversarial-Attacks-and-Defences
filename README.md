@@ -61,4 +61,5 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
 <pre><h3>   Grad-CAM :</h3>   Input – gradients of convolutional layer
    Output – Activation/heat map
    Grad-CAM are activation maps which generate highlights on the classified image to uncover important regions.
+   <img src="Dump/gradcam.PNG"  style="width:100%"></pre>
 
