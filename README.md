@@ -57,8 +57,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    Auto-encoders can be used for filtration purpose.
    It is possible for them to remove adversarial noise from an input image.
    <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
-Project Organization
-------------
+<h2>Project Organization</h2>
 
     ├── README.md                         <- The top-level README for developers using this project.
     ├── Resources
