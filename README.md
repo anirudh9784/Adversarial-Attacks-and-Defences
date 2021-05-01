@@ -22,7 +22,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    2. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2">MobileNetV2</a>
    3. <a href="https://blog.keras.io/building-autoencoders-in-keras.html">Auto-Encoder</a>
    4. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/DenseNet121">DenseNet</a></pre>
-<h2>Adversarial Attack:</h2>
+<h2>Adversarial Attack :</h2>
 
 1. Fast Gradient Sign Method(FGSM) - [Goodfellow, I. J., Shlens, J., and Szegedy, C. Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572, 2014b.](https://arxiv.org/abs/1412.6572)
 ```python
@@ -35,3 +35,29 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
      signed_grad = tf.sign(gradient)
      return signed_grad
 ```
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Module 1 : Auto Encoder</th>
+    <th class="tg-0pky">Auto-encoders can be used for Noise Filtering purpose. By feeding them noisy data as inputs and clean data as outputs, it’s possible to make them remove noise from the input image. This way, auto-encoders can serve as denoisers.</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Module 2 : Block Switching</td>
+    <td class="tg-0pky">Switching block in this experiment consists of multiple channels. Each regular model is split into a lower part, containing all convolutional layer. lower parts are again combined to form single output providing parallel channels of block switching while the other parts are discarded. These models tend to have similar characteristics in terms of classification accuracy and robustness, yet different model parameters due to random initialization and stochasticity in the training process</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Module 3 : Grad-CAM</td>
+    <td class="tg-0pky">Grad-CAM ( Activation Maps )uses the gradients of any target concept (say logits for “dog” or even a caption), flowing into the final convolutional layer to produce a coarse localization map highlighting the important regions in the image for predicting the concept.”</td>
+  </tr>
+</tbody>
+</table>
