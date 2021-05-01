@@ -51,7 +51,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
     <td>Grad-CAM ( Activation Maps )uses the gradients of any target concept (say logits for “dog” or even a caption), flowing into the final convolutional layer to produce a coarse localization map highlighting the important regions in the image for predicting the concept.”</td>
   </tr>
 
-</table><p style="font-size:200%;">
+</table><p>
 <pre>   <strong>Auto Encoder :</strong>
    Input – Adversarial image
    Output – Clean image after removing noise
