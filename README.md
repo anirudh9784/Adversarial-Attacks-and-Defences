@@ -9,15 +9,14 @@ Table of contents
 =================
 
 <!--ts-->
-   * [gh-md-toc](#gh-md-toc)
    * [Table of contents](#table-of-contents)
    * [Installation](#installation)
-   * [Usage](#usage)
-      * [STDIN](#stdin)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
+   * [Dataset](#Dataset)
+   * [Architecture](#Architecture)
+   * [Adversarial Attack](#Attack)
+   * [Adversarial Defense](#Defense)
+      * [Auto Encoder](#ae)
+   * [Publication](#Publication)
       * [Auto insert and update TOC](#auto-insert-and-update-toc)
       * [GitHub token](#github-token)
       * [TOC generation with Github Actions](#toc-generation-with-github-actions)
@@ -81,7 +80,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    Auto-encoders can be used for filtration purpose.
    It is possible for them to remove adversarial noise from an input image.
    <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
-<h2>Publication</h2>
+<h2><a name="Publication">Publication</a></h2>
 <h3>Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
 <p align="justify"><strong>Abstract :</strong> According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
 is an intermediate path or technique by which a computer learns to perform tasks using Machine learning algorithms. Machine Learning and Artificial Intelligence model has become
