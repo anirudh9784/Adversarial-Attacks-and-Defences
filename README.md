@@ -1,5 +1,5 @@
 # Major Project
-
+[asdas](#Architecture)
 <h3> Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
 <p align="justify"> According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
 is an intermediate path or technique by which a computer learns to perform tasks using Machine learning algorithms. Machine Learning and Artificial Intelligence model has become
@@ -15,7 +15,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
 
 
 
-<h2>Architecture :</h2>
+<a name="Architecture"><h2>Architecture :</h2></a>
 <pre>        <img src="Dump/Architecture.jpeg"  style="width:100%"></pre>
 <h2>ML Models Used :</h2>
 <pre>   1. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet">Resnet</a>
@@ -52,15 +52,8 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
   </tr>
 
 </table>
-<pre><h3>   Auto Encoder :</h3>   Input – Adversarial image
+<pre><h3>   Auto Encoder :</h3>  Input – Adversarial image
    Output – Clean image after removing noise
    Auto-encoders can be used for filtration purpose.
    It is possible for them to remove adversarial noise from an input image.
-  <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
-   
-<pre><h3>   Grad-CAM :</h3>   Input – gradients of convolutional layer
-   Output – Activation/heat map
-   Grad-CAM are activation maps which generate highlights on the classified image to uncover important regions.
-   As you can clearly see in the example below gradcam helps to tell why the picture is identified as corn instead of dog.
-      <img src="Dump/gradcam.PNG"  style="width:100%"></pre>
-
+   <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
