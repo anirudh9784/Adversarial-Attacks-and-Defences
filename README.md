@@ -29,20 +29,14 @@ Table of contents
 <!--te-->
 ## <a name="Installation">Installation</a>
 Download all dataset and necessary code<br>
-```python
-!pip install tensorflow
-!pip install torch
-!pip install keras
-!pip install sklearn
-!pip install cleverhans
-!pip install glob
-!pip install cv2
-```
+
 ```python
 !git clone https://github.com/anirudh9784/Adversarial-Defense.git
 ```
 <br>
 Install libraries using following commands<br>
+
+
 ```python
 !pip install tensorflow
 !pip install torch
