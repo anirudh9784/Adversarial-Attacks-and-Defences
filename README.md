@@ -34,9 +34,7 @@ Download all dataset and necessary code<br>
 !git clone https://github.com/anirudh9784/Adversarial-Defense.git
 ```
 <br>
-Install libraries using following commands<br>
-
-
+Install libraries using following commands
 ```python
 !pip install tensorflow
 !pip install torch
