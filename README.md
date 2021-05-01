@@ -57,3 +57,29 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    Auto-encoders can be used for filtration purpose.
    It is possible for them to remove adversarial noise from an input image.
    <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
+Project Organization
+------------
+
+    ├── README.md                         <- The top-level README for developers using this project.
+    ├── Resources
+    │   ├── AE_output.PNG                 <- Intermediate data that has been transformed
+    │   ├── Architecture.jpeg             <- The final, canonical data sets for modeling
+    │   ├── metrics.PNG                   <- The final, canonical data sets for modeling
+    │   ├── result.PNG                    <- The final, canonical data sets for modeling
+    │   └── gradcam.PNG                   <- The original, immutable data dump
+    │
+    ├── Dataset                           <- A set of markdown files with documented best practices, guidelines and rools for collaborative projects
+    │
+    ├── Dataset.zip                       <- Trained and serialized models, model predictions, or model summaries
+    │
+    ├── Full_Implementation.ipynb         <- Jupyter notebooks. Naming convention is a number (for ordering),
+    │                         the creator's initials, and a short `-` delimited description, e.g
+    │                         `1.0-jqp-initial-data-exploration`
+    │
+    ├── Source_Code.py                    <- Data dictionaries, manuals, and all other explanatory materials.
+    │
+    └── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+  
+
+
+--------
