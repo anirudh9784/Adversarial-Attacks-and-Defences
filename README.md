@@ -4,6 +4,28 @@
 ![GitHub stars](https://img.shields.io/github/stars/anirudh9784/Adversarial-Defense?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/anirudh9784/Adversarial-Defense?style=social)
 [Architecture](#Architecture)<br>
+Table of contents
+=================
+
+<!--ts-->
+   * [gh-md-toc](#gh-md-toc)
+   * [Table of contents](#table-of-contents)
+   * [Installation](#installation)
+   * [Usage](#usage)
+      * [STDIN](#stdin)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+      * [Auto insert and update TOC](#auto-insert-and-update-toc)
+      * [GitHub token](#github-token)
+      * [TOC generation with Github Actions](#toc-generation-with-github-actions)
+   * [Tests](#tests)
+   * [Dependency](#dependency)
+   * [Docker](#docker)
+     * [Local](#local)
+     * [Public](#public)
+<!--te-->
 The proposed system majorly focuses on static image input and defence architecture. Following are the characteristics of the proposed model: 
 <ul><li>Combination of two models to effectively defend both Black box and White Box attack. </li>
       <li>Randomization method acts as a backup for filtration performed by auto-encoder there by increasing the robustness of the proposed model. </li>
