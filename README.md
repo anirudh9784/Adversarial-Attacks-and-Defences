@@ -1,4 +1,4 @@
-# Major Project
+# An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks
 [asdas](#Architecture)
 <h3>Project Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
 <p align="justify"><strong>Abstract :</strong> According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
