@@ -3,7 +3,10 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/anirudh9784/Adversarial-Defense)
 ![GitHub stars](https://img.shields.io/github/stars/anirudh9784/Adversarial-Defense?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/anirudh9784/Adversarial-Defense?style=social)
-
+This system majorly focuses on static image input and defence architecture. Following are the characteristics of the proposed model: 
+<ul><li>Combination of two models to effectively defend both Black box and White Box attack. </li>
+      <li>Randomization method acts as a backup for filtration performed by auto-encoder there by increasing the robustness of the proposed model. </li>
+      <li>Grad-CAM allows the model to predict the highlighted important region based on classification.</li></ul>
 
 Table of contents
 
@@ -18,14 +21,6 @@ Table of contents
       * [Auto Encoder](#ae)
       * [Grad CAM](#gradcam)
    * [Publication](#Publication)
-      * [Auto insert and update TOC](#auto-insert-and-update-toc)
-      * [GitHub token](#github-token)
-      * [TOC generation with Github Actions](#toc-generation-with-github-actions)
-   * [Tests](#tests)
-   * [Dependency](#dependency)
-   * [Docker](#docker)
-     * [Local](#local)
-     * [Public](#public)
 <!--te-->
 ## <a name="Installation">Installation</a>
 Prerequisites :<br>
@@ -54,10 +49,7 @@ To run project runu the following command
 ```python
 python source_code.py
 ```
-The proposed system majorly focuses on static image input and defence architecture. Following are the characteristics of the proposed model: 
-<ul><li>Combination of two models to effectively defend both Black box and White Box attack. </li>
-      <li>Randomization method acts as a backup for filtration performed by auto-encoder there by increasing the robustness of the proposed model. </li>
-      <li>Grad-CAM allows the model to predict the highlighted important region based on classification.</li></ul>
+
 
 
 <a name="Dataset"><h2>Dataset :</h2></a><pre>It is subset of Imagenet Dataset
