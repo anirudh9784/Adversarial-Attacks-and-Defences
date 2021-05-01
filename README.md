@@ -82,11 +82,11 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    It is possible for them to remove adversarial noise from an input image.
   <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
   
-  <a name="gradcam"> <pre><h3>   Grad CAM :</a></h3> Input – Gradients of convolutional layer
+  <a name="gradcam"> <h3>   Grad CAM :</h3></a>   Input – Gradients of convolutional layer
         Output – Activation/heat map
-          Grad-CAM are activation maps which generate highlights on the classified image to uncover important regions.
-          As you can see in the below example gradcam helps us to figure out why the image is predicted as corn instead of dog.
-  <img src="Dump/gradcam.PNG"  style="width:100%"></pre>
+                  Grad-CAM are activation maps which generate highlights on the classified image to uncover important regions.
+              As you can see in the below example gradcam helps us to figure out why the image is predicted as corn instead of dog.
+  <img src="Dump/gradcam.PNG"  style="width:100%">
   
   
 <h3><a name="Publication">Publication</a></h3>
