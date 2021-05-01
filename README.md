@@ -75,11 +75,19 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
   </tr>
 
 </table><a name="AE">
-  <pre><h3>   Auto Encoder :</h3></a>  Input – Adversarial image
+  <pre><h3>   Auto Encoder :</h3></a>   Input – Adversarial image
    Output – Clean image after removing noise
    Auto-encoders can be used for filtration purpose.
    It is possible for them to remove adversarial noise from an input image.
   <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
+  
+  <pre><h3>   Grad CAM :</h3></a>   Input – Gradients of convolutional layer
+   Output – Activation/heat map
+   Grad-CAM are activation maps which generate highlights on the classified image to uncover important regions.
+   As you can see in the below example gradcam helps us to figure out why the image is predicted as corn instead of dog.
+  <img src="Dump/gradcam.PNG"  style="width:100%"></pre>
+  
+  
 <h2><a name="Publication">Publication</a></h2>
 <h3>Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
 <p align="justify"><strong>Abstract :</strong> According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
