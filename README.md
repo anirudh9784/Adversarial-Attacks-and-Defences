@@ -86,7 +86,10 @@ It is possible for them to remove adversarial noise from an input image.<br><br>
         Output – Activation/heat map
                   Grad-CAM are activation maps which generate highlights on the classified image to uncover important regions.
               As you can see in the below example gradcam helps us to figure out why the image is predicted as corn instead of dog.
- <img  align="right" src="Dump/gradcam.PNG"  style="width:100%"></pre>
+ <img  align="centre" src="Dump/gradcam.PNG"  style="width:100%">
+  <img  align="middle" src="Dump/gradcam.PNG"  style="width:100%">
+  <img  align="bottom" src="Dump/gradcam.PNG"  style="width:100%">
+  <img  align="centre" src="Dump/gradcam.PNG"  style="width:100%"></pre>
   
   
 <h3><a name="Publication">Publication</a></h3>
