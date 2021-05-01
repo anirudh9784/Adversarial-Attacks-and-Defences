@@ -1,4 +1,6 @@
 # An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks
+![GitHub stars](https://img.shields.io/github/stars/anirudh9784/Adversarial-Defense?style=social)
+![GitHub forks](https://img.shields.io/github/forks/anirudh9784/Adversarial-Defense?style=social)
 [asdas](#Architecture)
 <h3>Project Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
 <p align="justify"><strong>Abstract :</strong> According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
