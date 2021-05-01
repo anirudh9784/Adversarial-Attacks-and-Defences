@@ -51,9 +51,9 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
     <td>Grad-CAM ( Activation Maps )uses the gradients of any target concept (say logits for “dog” or even a caption), flowing into the final convolutional layer to produce a coarse localization map highlighting the important regions in the image for predicting the concept.”</td>
   </tr>
 
-</table><p>
-<pre><h3>   Auto Encoder :</h3>   Input – Adversarial image
+</table>
+<pre><h3>  Auto Encoder :</h3>   Input – Adversarial image
    Output – Clean image after removing noise
    Auto-encoders can be used for filtration purpose.
    It is possible for them to remove adversarial noise from an input image.
-   <img src="Dump/AE_output.PNG"  style="width:100%"></pre></p>
+   <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
