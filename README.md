@@ -79,7 +79,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    Output – Clean image after removing noise
    Auto-encoders can be used for filtration purpose.
    It is possible for them to remove adversarial noise from an input image.
-   <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
+  <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
 <h2><a name="Publication">Publication</a></h2>
 <h3>Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
 <p align="justify"><strong>Abstract :</strong> According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
