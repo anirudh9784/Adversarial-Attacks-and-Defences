@@ -16,6 +16,7 @@ Table of contents
    * [Adversarial Attack](#Attack)
    * [Adversarial Defense](#Defense)
       * [Auto Encoder](#ae)
+      * [Grad CAM](#gradcam)
    * [Publication](#Publication)
       * [Auto insert and update TOC](#auto-insert-and-update-toc)
       * [GitHub token](#github-token)
@@ -81,7 +82,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    It is possible for them to remove adversarial noise from an input image.
   <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
   
-  <pre><h3>   Grad CAM :</h3></a>   Input – Gradients of convolutional layer
+  <a name="gradcam"><pre><h3>   Grad CAM :</h3></a>   Input – Gradients of convolutional layer
    Output – Activation/heat map
    Grad-CAM are activation maps which generate highlights on the classified image to uncover important regions.
    As you can see in the below example gradcam helps us to figure out why the image is predicted as corn instead of dog.
