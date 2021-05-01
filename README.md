@@ -56,4 +56,5 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    Input – Adversarial image
    Output – Clean image after removing noise
    Auto-encoders can be used for filtration purpose.
-   It is possible for them to remove adversarial noise from an input image.</pre></p>
+   It is possible for them to remove adversarial noise from an input image.
+   <img src="Dump/AE_output.png"  style="width:100%"></pre></p>
