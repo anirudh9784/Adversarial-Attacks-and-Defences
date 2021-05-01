@@ -28,6 +28,11 @@ Table of contents
      * [Public](#public)
 <!--te-->
 ## <a name="Installation">Installation</a>
+Prerequisites :<br>
+```
+    1. Anaconda ( If using Python Notebook to run )
+    2. Python
+```
 Download all dataset and necessary code
 
 ```python
