@@ -58,7 +58,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    It is possible for them to remove adversarial noise from an input image.
    <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
 Project Organization
---------
+------------
 
     ├── README.md                         <- The top-level README for developers using this project.
     ├── Resources
