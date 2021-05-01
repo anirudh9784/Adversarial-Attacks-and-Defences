@@ -79,7 +79,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
   <pre><h3>Auto Encoder :</h3></a>Input – Adversarial image
 Output – Clean image after removing noise
 Auto-encoders can be used for filtration purpose.
-It is possible for them to remove adversarial noise from an input image.<br>
+It is possible for them to remove adversarial noise from an input image.<br><br>
   <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
   
   <a name="gradcam"> <pre><h3>Grad CAM :</h3></a>Input – Gradients of convolutional layer
