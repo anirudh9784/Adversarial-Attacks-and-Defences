@@ -58,7 +58,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    It is possible for them to remove adversarial noise from an input image.
    <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
 Project Organization
-------------
+--------
 
     ├── README.md                         <- The top-level README for developers using this project.
     ├── Resources
@@ -73,12 +73,12 @@ Project Organization
     ├── Dataset.zip                       <- Trained and serialized models, model predictions, or model summaries
     │
     ├── Full_Implementation.ipynb         <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g
-    │                         `1.0-jqp-initial-data-exploration`
+    │                                        the creator's initials, and a short `-` delimited description, e.g
+    │                                        `1.0-jqp-initial-data-exploration`
     │
     ├── Source_Code.py                    <- Data dictionaries, manuals, and all other explanatory materials.
     │
-    └── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    └── reports                           <- Generated analysis as HTML, PDF, LaTeX, etc.
   
 
 
