@@ -52,3 +52,8 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
   </tr>
 
 </table>
+<pre>   <h3>Auto Encoder :</h3></pre>
+Input – Adversarial image			Output – Clean image after removing noise 
+Auto-encoders can be used for filtration purpose.
+It is possible for them to remove adversarial noise from an input image.
+![image](https://user-images.githubusercontent.com/45981913/116776080-6a414700-aa84-11eb-8505-946155273ca1.png)
