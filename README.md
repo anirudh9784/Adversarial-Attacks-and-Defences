@@ -49,8 +49,5 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
     <td><pre>Module 3 : Grad-CAM</td></pre>
     <td>Grad-CAM ( Activation Maps )uses the gradients of any target concept (say logits for “dog” or even a caption), flowing into the final convolutional layer to produce a coarse localization map highlighting the important regions in the image for predicting the concept.”</td>
   </tr>
-  <tr>
-    <td><pre>Module 2 : Block Switching</td></pre>
-    <td>Switching block in this experiment consists of multiple channels. Each regular model is split into a lower part, containing all convolutional layer. lower parts are again combined to form single output providing parallel channels of block switching while the other parts are discarded. These models tend to have similar characteristics in terms of classification accuracy and robustness, yet different model parameters due to random initialization and stochasticity in the training process</td>
-  </tr>
+
 </table>
