@@ -2,7 +2,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/anirudh9784/Adversarial-Defense)
 ![GitHub contributors](https://img.shields.io/github/contributors/anirudh9784/Adversarial-Defense)
 ![GitHub stars](https://img.shields.io/github/stars/anirudh9784/Adversarial-Defense?style=social)
-![GitHub forks](https://img.shields.io/github/forks/anirudh9784/Adversarial-Defense?style=social)
+![GitHub forks](https://img.shields.io/github/forks/anirudh9784/Adversarial-Defense?style=social)<br>
 This system majorly focuses on static image input and defence architecture. Following are the characteristics of the proposed model: 
 <ul><li>Combination of two models to effectively defend both Black box and White Box attack. </li>
       <li>Randomization method acts as a backup for filtration performed by auto-encoder there by increasing the robustness of the proposed model. </li>
