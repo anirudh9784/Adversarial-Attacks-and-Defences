@@ -3,7 +3,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/anirudh9784/Adversarial-Defense?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/anirudh9784/Adversarial-Defense?style=social)
 ![GitHub follow](https://img.shields.io/badge/Python-v3.7-Blue>)
-![GitHub follow](https://img.shields.io/badge/Platform-Windows|Macos-Blue>)
+![GitHub follow](https://img.shields.io/badge/Platform-Windows | Macos-Blue>)
 
 ![GitHub follow](https://img.shields.io/github/followers/ashutoshupadhyah?style=social)
 <br>
