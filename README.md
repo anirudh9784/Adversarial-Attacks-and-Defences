@@ -35,7 +35,7 @@ Download all dataset and necessary code
 ```
 <br>
 Install libraries using following commands<br> 
-<br> 
+
 ```python
 !pip install tensorflow
 !pip install torch
