@@ -33,7 +33,7 @@ The proposed system majorly focuses on static image input and defence architectu
       <li>Grad-CAM allows the model to predict the highlighted important region based on classification.</li></ul>
 
 
-<h2>Dataset :</h2><pre>It is subset of Imagenet Dataset
+<a name="Dataset"><h2>Dataset :</h2></a><pre>It is subset of Imagenet Dataset
 Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
 <img src="Dataset/1.jpg"  style="width:100%">    <img src="Dataset/29.jpg"  style="width:100%">    <img src="Dataset/213.jpg"  style="width:100%">   <img src="Dataset/53.jpg"  style="width:100%"></pre>
 
@@ -46,7 +46,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    2. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2">MobileNetV2</a>
    3. <a href="https://blog.keras.io/building-autoencoders-in-keras.html">Auto-Encoder</a>
    4. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/DenseNet121">DenseNet</a></pre>
-<h2>Adversarial Attack :</h2>
+<a name="Attack"><h2>Adversarial Attack :</h2></a>
 
 1. Fast Gradient Sign Method(FGSM) - [Goodfellow, I. J., Shlens, J., and Szegedy, C. Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572, 2014b.](https://arxiv.org/abs/1412.6572)
 ```python
@@ -59,7 +59,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
      signed_grad = tf.sign(gradient)
      return signed_grad
 ```
-<h2>Defense Architecture :</h2>
+<a name="Defense"><h2>Defense Architecture :</h2></a>
 <table>
   <tr>
      <td><pre>Module 1 : Auto Encoder</td></pre>
@@ -75,8 +75,8 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
     <td>Grad-CAM ( Activation Maps )uses the gradients of any target concept (say logits for “dog” or even a caption), flowing into the final convolutional layer to produce a coarse localization map highlighting the important regions in the image for predicting the concept.”</td>
   </tr>
 
-</table>
-<pre><h3>   Auto Encoder :</h3>  Input – Adversarial image
+</table><a name="AE">
+  <pre><h3>   Auto Encoder :</h3></a>  Input – Adversarial image
    Output – Clean image after removing noise
    Auto-encoders can be used for filtration purpose.
    It is possible for them to remove adversarial noise from an input image.
