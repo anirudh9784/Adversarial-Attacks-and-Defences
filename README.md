@@ -32,4 +32,4 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
      return signed_grad
 ```
 <h2>Architecture :</h2>
-<img src="Dump/Architecture.jpeg"  style="width:100%">
+<pre>    <img src="Dump/Architecture.jpeg"  style="width:100%"></pre>
