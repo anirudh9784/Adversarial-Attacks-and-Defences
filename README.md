@@ -52,7 +52,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
   </tr>
 
 </table><h3>
-<pre>   Auto Encoder :</pre></h3>
+<pre>   Auto Encoder :</h3>
 <pre>   Input – Adversarial image
    Output – Clean image after removing noise
    Auto-encoders can be used for filtration purpose.
