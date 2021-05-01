@@ -35,6 +35,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
      signed_grad = tf.sign(gradient)
      return signed_grad
 ```
+<h2>Defense Architecture :</h2>
 <table>
   <tr>
      <td><pre>Module 1 : Auto Encoder</td></pre>
