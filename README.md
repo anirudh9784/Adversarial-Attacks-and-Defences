@@ -56,11 +56,11 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    Output – Clean image after removing noise
    Auto-encoders can be used for filtration purpose.
    It is possible for them to remove adversarial noise from an input image.
-   <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
+  <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
    
 <pre><h3>   Grad-CAM :</h3>   Input – gradients of convolutional layer
    Output – Activation/heat map
    Grad-CAM are activation maps which generate highlights on the classified image to uncover important regions.
    As you can clearly see in the example below gradcam helps to tell why the picture is identified as corn instead of dog.
-         <img src="Dump/gradcam.PNG"  style="width:100%"></pre>
+      <img src="Dump/gradcam.PNG"  style="width:100%"></pre>
 
