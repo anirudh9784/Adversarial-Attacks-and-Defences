@@ -28,7 +28,12 @@ Table of contents
      * [Public](#public)
 <!--te-->
 ## <a name="Installation">Installation</a>
-Install following libraries using following commands<br>
+Download all dataset and necessary code<br>
+```python
+!git clone https://github.com/anirudh9784/Adversarial-Defense.git
+```
+<br>
+Install libraries using following commands<br>
 ```python
 !pip install tensorflow
 !pip install torch
@@ -38,6 +43,7 @@ Install following libraries using following commands<br>
 !pip install glob
 !pip install cv2
 ```
+
 The proposed system majorly focuses on static image input and defence architecture. Following are the characteristics of the proposed model: 
 <ul><li>Combination of two models to effectively defend both Black box and White Box attack. </li>
       <li>Randomization method acts as a backup for filtration performed by auto-encoder there by increasing the robustness of the proposed model. </li>
