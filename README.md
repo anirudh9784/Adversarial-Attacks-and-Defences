@@ -12,12 +12,16 @@ and security delivered by the algorithm.</p>
 <h2>Dataset :</h2><pre>It is subset of Imagenet Dataset
 Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
 <img src="Dataset/1.jpg"  style="width:100%">    <img src="Dataset/29.jpg"  style="width:100%">    <img src="Dataset/213.jpg"  style="width:100%">   <img src="Dataset/53.jpg"  style="width:100%"></pre>
+
+
+
+<h2>Architecture :</h2>
+<pre>        <img src="Dump/Architecture.jpeg"  style="width:100%"></pre>
 <h2>ML Models Used :</h2>
 <pre>   1. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet">Resnet</a>
    2. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2">MobileNetV2</a>
    3. <a href="https://blog.keras.io/building-autoencoders-in-keras.html">Auto-Encoder</a>
    4. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/DenseNet121">DenseNet</a></pre>
-
 <h2>Adversarial Attack:</h2>
 
 1. Fast Gradient Sign Method(FGSM) - [Goodfellow, I. J., Shlens, J., and Szegedy, C. Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572, 2014b.](https://arxiv.org/abs/1412.6572)
@@ -31,5 +35,3 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
      signed_grad = tf.sign(gradient)
      return signed_grad
 ```
-<h2>Architecture :</h2>
-<pre>        <img src="Dump/Architecture.jpeg"  style="width:100%"></pre>
