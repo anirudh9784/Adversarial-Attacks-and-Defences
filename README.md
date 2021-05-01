@@ -40,7 +40,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
 
 
 <a name="Architecture"><h2>Architecture :</h2></a>
-<pre>        <img src="Dump/Architecture.jpeg"  style="width:100%"></pre>
+<pre>        <img src="Resources/Architecture.jpeg"  style="width:100%"></pre>
 <h2>ML Models Used :</h2>
 <pre>   1. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet">Resnet</a>
    2. <a href="https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2">MobileNetV2</a>
@@ -80,13 +80,13 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
 Output – Clean image after removing noise
 Auto-encoders can be used for filtration purpose.
 It is possible for them to remove adversarial noise from an input image.<br><br>
-  <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
+  <img src="Resources/AE_output.PNG"  style="width:100%"></pre>
   
   <a name="gradcam"> <pre><h3>Grad CAM :</h3></a>Input – Gradients of convolutional layer
         Output – Activation/heat map
                   Grad-CAM are activation maps which generate highlights on the classified image to uncover important regions.
               As you can see in the below example gradcam helps us to figure out why the image is predicted as corn instead of dog.
- <img  align="centre" src="Dump/gradcam.PNG"  style="width:100%"></pre>
+ <img  align="centre" src="Resources/gradcam.PNG"  style="width:100%"></pre>
   
   
 <h3><a name="Publication">Publication</a></h3>
