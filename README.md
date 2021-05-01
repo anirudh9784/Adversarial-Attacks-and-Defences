@@ -61,21 +61,19 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
 
     ├── README.md                         <- The top-level README for developers using this project.
     ├── Resources
-    │   ├── AE_output.PNG                 <- Intermediate data that has been transformed
-    │   ├── Architecture.jpeg             <- The final, canonical data sets for modeling
-    │   ├── metrics.PNG                   <- The final, canonical data sets for modeling
-    │   ├── result.PNG                    <- The final, canonical data sets for modeling
-    │   └── gradcam.PNG                   <- The original, immutable data dump
+    │   ├── AE_output.PNG                 <- Fianl output of Auto-Encoder
+    │   ├── Architecture.jpeg             <- Project Architecture
+    │   ├── metrics.PNG                   <- Result metric of out final Model
+    │   ├── result.PNG                    <- Final Input Output Pipeline
+    │   └── gradcam.PNG                   <- Grad-Cam Output
     │
-    ├── Dataset                           <- A set of markdown files with documented best practices, guidelines and rools for collaborative projects
+    ├── Dataset                           <- Subset of Imagenet containing more than 200 images belonging to 1000 different classes
     │
-    ├── Dataset.zip                       <- Trained and serialized models, model predictions, or model summaries
+    ├── Dataset.zip                       <- Same Dataset Compressed in ZIP file
     │
-    ├── Full_Implementation.ipynb         <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                                        the creator's initials, and a short `-` delimited description, e.g
-    │                                        `1.0-jqp-initial-data-exploration`
+    ├── Full_Implementation.ipynb         <- Jupyter notebook containing full implementation
     │
-    ├── Source_Code.py                    <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── Source_Code.py                    <- Source Code of project as Python Script
     │
     └── reports                           <- Generated analysis as HTML, PDF, LaTeX, etc.
   
