@@ -29,7 +29,7 @@ Table of contents
 <!--te-->
 ## <a name="Installation">Installation</a>
 Install following libraries using following commands<br>
-'''python
+```python
 !pip install tensorflow
 !pip install torch
 !pip install keras
@@ -37,7 +37,7 @@ Install following libraries using following commands<br>
 !pip install cleverhans
 !pip install glob
 !pip install cv2
-'''
+```
 The proposed system majorly focuses on static image input and defence architecture. Following are the characteristics of the proposed model: 
 <ul><li>Combination of two models to effectively defend both Black box and White Box attack. </li>
       <li>Randomization method acts as a backup for filtration performed by auto-encoder there by increasing the robustness of the proposed model. </li>
