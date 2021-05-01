@@ -28,7 +28,7 @@ Table of contents
      * [Public](#public)
 <!--te-->
 ## <a name="Installation">Installation</a>
-Download all dataset and necessary code<br>
+Download all dataset and necessary code
 
 ```python
 !git clone https://github.com/anirudh9784/Adversarial-Defense.git
