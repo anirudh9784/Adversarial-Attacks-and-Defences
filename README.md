@@ -7,9 +7,8 @@ This system majorly focuses on static image input and defence architecture. Foll
 <ul><li>Combination of two models to effectively defend both Black box and White Box attack. </li>
       <li>Randomization method acts as a backup for filtration performed by auto-encoder there by increasing the robustness of the proposed model. </li>
       <li>Grad-CAM allows the model to predict the highlighted important region based on classification.</li></ul>
---------------------------
-Table of contents
----------------------------
+
+<h2>Table of contents</h2>
 
 <!--ts-->
    * [Table of contents](#table-of-contents)
