@@ -3,7 +3,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/anirudh9784/Adversarial-Defense)
 ![GitHub stars](https://img.shields.io/github/stars/anirudh9784/Adversarial-Defense?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/anirudh9784/Adversarial-Defense?style=social)
-[Architecture](#Architecture)
+
 
 Table of contents
 
