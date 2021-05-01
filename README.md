@@ -1,17 +1,10 @@
-# An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks
+# Adversarial Defense
 ![GitHub repo size](https://img.shields.io/github/repo-size/anirudh9784/Adversarial-Defense)
 ![GitHub contributors](https://img.shields.io/github/contributors/anirudh9784/Adversarial-Defense)
 ![GitHub stars](https://img.shields.io/github/stars/anirudh9784/Adversarial-Defense?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/anirudh9784/Adversarial-Defense?style=social)
 [asdas](#Architecture)
-<h3>Project Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
-<p align="justify"><strong>Abstract :</strong> According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
-is an intermediate path or technique by which a computer learns to perform tasks using Machine learning algorithms. Machine Learning and Artificial Intelligence model has become
-fundamental aspect of life, such as self-driving cars, smart home devices, so any vulnerability is a significant concern. The smallest input deviations can fool these extremely
-literal systems and deceive their users as well as administrator into precarious situations. This article proposes a defense algorithm which utilizes the combination of an auto-
-encoder and block-switching architecture. Auto-coder is intended to remove any perturbations found in input images whereas block switching method is used to make it more robust
-against White-box attack. Attack is planned using FGSM model, and the subsequent counter-attack by the proposed architecture will take place thereby demonstrating the feasibility
-and security delivered by the algorithm.</p>
+
 
 <h2>Dataset :</h2><pre>It is subset of Imagenet Dataset
 Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
@@ -61,6 +54,15 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
    Auto-encoders can be used for filtration purpose.
    It is possible for them to remove adversarial noise from an input image.
    <img src="Dump/AE_output.PNG"  style="width:100%"></pre>
+<h2>Publication</h2>
+<h3>Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
+<p align="justify"><strong>Abstract :</strong> According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
+is an intermediate path or technique by which a computer learns to perform tasks using Machine learning algorithms. Machine Learning and Artificial Intelligence model has become
+fundamental aspect of life, such as self-driving cars, smart home devices, so any vulnerability is a significant concern. The smallest input deviations can fool these extremely
+literal systems and deceive their users as well as administrator into precarious situations. This article proposes a defense algorithm which utilizes the combination of an auto-
+encoder and block-switching architecture. Auto-coder is intended to remove any perturbations found in input images whereas block switching method is used to make it more robust
+against White-box attack. Attack is planned using FGSM model, and the subsequent counter-attack by the proposed architecture will take place thereby demonstrating the feasibility
+and security delivered by the algorithm.</p>
 <h2>Project Organization</h2>
 
     ├── README.md                         <- The top-level README for developers using this project.
