@@ -134,7 +134,7 @@ and security delivered by the algorithm.</p>
     │
     ├── Source_Code.py                    <- Source Code of project as Python Script
     │
-    └── reports                           <- Generated analysis as HTML, PDF, LaTeX, etc.
+    └── Research Paper                    <- Research Paper
   
 
 
