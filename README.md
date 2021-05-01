@@ -38,8 +38,8 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
 <table>
 <thead>
   <tr>
-    <th>Module 1 : Auto Encoder</th>
-    <th>Auto-encoders can be used for Noise Filtering purpose. By feeding them noisy data as inputs and clean data as outputs, it’s possible to make them remove noise from the input image. This way, auto-encoders can serve as denoisers.</th>
+     <td><pre>Module 1 : Auto Encoder</td></pre>
+    <td>Auto-encoders can be used for Noise Filtering purpose. By feeding them noisy data as inputs and clean data as outputs, it’s possible to make them remove noise from the input image. This way, auto-encoders can serve as denoisers.</td>
   </tr>
 </thead>
 <tbody>
