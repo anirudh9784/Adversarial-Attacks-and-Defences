@@ -89,7 +89,7 @@ Source : <a href="https://imagenet.stanford.edu/" >ImageNet </a>
   </tr>
 
   <tr>
-    <td><pre>Module 2 : Block Switching</td></pre>
+    <td><pre>Module 2 : Randomisation</td></pre>
     <td>Switching block in this experiment consists of multiple channels. Each regular model is split into a lower part, containing all convolutional layer. lower parts are again combined to form single output providing parallel channels of block switching while the other parts are discarded. These models tend to have similar characteristics in terms of classification accuracy and robustness, yet different model parameters due to random initialization and stochasticity in the training process</td>
   </tr>
   <tr>
