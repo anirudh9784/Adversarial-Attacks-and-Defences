@@ -112,7 +112,8 @@ It is possible for them to remove adversarial noise from an input image.<br><br>
   
   
 <h3><a name="Publication">Publication</a></h3>
-<h3>Title : <a  href="http://gjstx-e.cn/gallery/70-april2021.pdf2">An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </a></h3>
+<!-- <a  href="http://gjstx-e.cn/gallery/70-april2021.pdf2"> </a>-->
+<h3>Title : An integrated Auto Encoder-Block Switching defense approach to prevent adversarial attacks </h3>
 <p align="justify"><strong>Abstract :</strong> According to the recent studies, the vulnerability of state of the art Neural Networks to adversarial input samples has increased drastically. Neural network
 is an intermediate path or technique by which a computer learns to perform tasks using Machine learning algorithms. Machine Learning and Artificial Intelligence model has become
 fundamental aspect of life, such as self-driving cars, smart home devices, so any vulnerability is a significant concern. The smallest input deviations can fool these extremely
