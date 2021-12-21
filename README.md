@@ -135,8 +135,6 @@ and security delivered by the algorithm.</p>
     │
     ├── Dataset.zip                       <- Same Dataset Compressed in ZIP file
     │
-    ├── Full_Implementation.ipynb         <- Jupyter notebook containing full implementation
-    │
     ├── Source_Code.py                    <- Source Code of project as Python Script
     │
     └── Research Paper                    <- Research Paper
